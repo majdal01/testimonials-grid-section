@@ -1,0 +1,56 @@
+
+// Color Variables
+$black: hsl(0, 0%, 7%);
+$dark-blue: hsl(219, 29%, 14%);
+$white: hsl(0, 0%, 100%);
+$grey-100: hsl(214, 17%, 92%);
+$grey-200: hsl(0, 0%, 81%);
+$grey-400: hsl(224, 10%, 45%);
+$grey-500: hsl(217, 19%, 35%);
+$purple-50: hsl(260, 100%, 95%);
+$purple-300: hsl(264, 82%, 70%);
+$purple-500: hsl(263, 55%, 52%);
+
+// Font Variables
+$font-family: 'Barlow Semi Condensed', sans-serif;
+
+// Spacing Variables
+$space-500: 2.5rem;
+$space-400: 2rem;
+$space-300: 1.5rem;
+$space-200: 1rem;
+$space-100: 0.5rem;
+$space-50: 0.25rem;
+
+// Mixins
+@mixin text-preset-1 {
+    font-family: $font-family;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+
+@mixin text-preset-2 {
+    font-family: $font-family;
+    font-size: 0.813rem;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0;
+}
+
+@mixin text-preset-3 {
+    font-family: $font-family;
+    font-size: 0.813rem;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0;
+}
+
+@mixin text-preset-4 {
+    font-family: $font-family;
+    font-size: 0.688rem;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0;
+}
