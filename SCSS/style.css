@@ -63,6 +63,8 @@ p {
 
 .profile-card {
   padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
 }
 .profile-card h3 {
   margin-bottom: 1rem;
@@ -76,16 +78,52 @@ p {
 }
 .profile-section .daniel-card {
   grid-column: span 2;
+  background-color: hsl(263, 55%, 52%);
+}
+.profile-section .daniel-card h1, .profile-section .daniel-card h3 {
+  color: hsl(0, 0%, 100%);
+}
+.profile-section .daniel-card h2, .profile-section .daniel-card p {
+  color: hsl(260, 100%, 95%);
 }
 .profile-section .jonathan-card {
-  background-color: hsl(263, 55%, 52%);
+  background-color: hsl(217, 19%, 35%);
+}
+.profile-section .jonathan-card h1, .profile-section .jonathan-card h3 {
+  color: hsl(0, 0%, 100%);
+}
+.profile-section .jonathan-card h2, .profile-section .jonathan-card p {
+  color: hsl(214, 17%, 92%);
 }
 .profile-section .kira-card {
   grid-row: span 2;
+  background-color: hsl(0, 0%, 100%);
+}
+.profile-section .kira-card h1, .profile-section .kira-card h3 {
+  color: hsl(217, 19%, 35%);
+}
+.profile-section .kira-card h2, .profile-section .kira-card p {
+  color: hsl(224, 10%, 45%);
 }
 .profile-section .jeanette-card {
-  background-color: hsl(217, 19%, 35%);
+  background-color: hsl(0, 0%, 100%);
+}
+.profile-section .jeanette-card h1, .profile-section .jeanette-card h3 {
+  color: hsl(217, 19%, 35%);
+}
+.profile-section .jeanette-card h2, .profile-section .jeanette-card p {
+  color: hsl(224, 10%, 45%);
 }
 .profile-section .patrick-card {
   grid-column: span 2;
+  background-color: hsl(219, 29%, 14%);
+}
+.profile-section .patrick-card h1, .profile-section .patrick-card h2 {
+  color: hsl(0, 0%, 100%);
+}
+.profile-section .patrick-card h3 {
+  color: hsl(0, 0%, 81%);
+}
+.profile-section .patrick-card p {
+  color: hsl(214, 17%, 92%);
 }/*# sourceMappingURL=style.css.map */
