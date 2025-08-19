@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  margin-top: 10rem;
+  margin: 10rem 1rem 10rem;
 }
 
 h1 {
@@ -55,7 +55,6 @@ p {
   width: 1.75rem;
   height: auto;
   border-radius: 50%;
-  border: 2px solid hsl(263, 55%, 52%);
 }
 .profile-header h1 {
   padding-bottom: 0.25rem;
@@ -79,6 +78,12 @@ p {
 .profile-section .daniel-card {
   grid-column: span 2;
   background-color: hsl(263, 55%, 52%);
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: right 3.75rem top;
+}
+.profile-section .daniel-card img {
+  border: 2px solid #A775F1;
 }
 .profile-section .daniel-card h1, .profile-section .daniel-card h3 {
   color: hsl(0, 0%, 100%);
@@ -117,6 +122,9 @@ p {
 .profile-section .patrick-card {
   grid-column: span 2;
   background-color: hsl(219, 29%, 14%);
+}
+.profile-section .patrick-card img {
+  border: 2px solid hsl(263, 55%, 52%);
 }
 .profile-section .patrick-card h1, .profile-section .patrick-card h2 {
   color: hsl(0, 0%, 100%);
