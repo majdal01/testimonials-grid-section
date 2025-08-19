@@ -134,4 +134,27 @@ p {
 }
 .profile-section .patrick-card p {
   color: hsl(214, 17%, 92%);
+}
+
+@media (max-width: 768px) {
+  body {
+    margin-top: 5rem;
+  }
+  .profile-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .kira-card {
+    grid-row: 1fr;
+    grid-column: span 2;
+    order: 1;
+  }
+}
+@media (max-width: 375px) {
+  .profile-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .daniel-card {
+    background-image: none !important;
+  }
 }/*# sourceMappingURL=style.css.map */

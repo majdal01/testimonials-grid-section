@@ -13,7 +13,6 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 10rem 1rem 10rem;
-
 }
 
 h1 {
@@ -143,4 +142,38 @@ p {
         }
     }
     
+}
+
+
+//Responsive Styles
+
+@media (max-width: 768px) {
+
+    body {
+        margin-top: 5rem;
+    }
+
+    .profile-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .kira-card {
+        grid-row: 1fr;
+        grid-column: span 2;
+        order: 1;
+    }
+}
+
+
+@media (max-width: 375px) {
+
+    .profile-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .daniel-card {
+        background-image: none !important;
+    }
+
 }
