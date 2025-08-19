@@ -158,7 +158,7 @@ p {
     }
 
     .kira-card {
-        grid-row: 1fr;
+        grid-row: 1 / span 1;
         grid-column: span 2;
         order: 1;
     }
