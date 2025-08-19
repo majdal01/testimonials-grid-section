@@ -2,4 +2,90 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #F6F5F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 10rem;
+}
+
+h1 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 0.813rem;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 0.688rem;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 0;
+}
+
+h3 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 0.813rem;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.profile-header img {
+  width: 1.75rem;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid hsl(263, 55%, 52%);
+}
+.profile-header h1 {
+  padding-bottom: 0.25rem;
+}
+
+.profile-card {
+  padding: 2rem;
+}
+.profile-card h3 {
+  margin-bottom: 1rem;
+}
+
+.profile-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  max-width: 69.625rem;
+}
+.profile-section .daniel-card {
+  grid-column: span 2;
+}
+.profile-section .jonathan-card {
+  background-color: hsl(263, 55%, 52%);
+}
+.profile-section .kira-card {
+  grid-row: span 2;
+}
+.profile-section .jeanette-card {
+  background-color: hsl(217, 19%, 35%);
+}
+.profile-section .patrick-card {
+  grid-column: span 2;
 }/*# sourceMappingURL=style.css.map */

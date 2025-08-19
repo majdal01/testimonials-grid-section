@@ -5,3 +5,82 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+    background-color: #F6F5F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 10rem;
+}
+
+h1 {
+    @include text-preset-2;
+}
+
+h2 {
+    @include text-preset-4;
+}
+
+h3 {
+    @include text-preset-1;
+}
+
+p {
+    @include text-preset-3;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: $space-200;
+    margin-bottom: $space-200;
+
+    img {
+        width: 1.75rem;
+        height: auto;
+        border-radius: 50%;
+        border: 2px solid $purple-500;
+    }
+
+    h1 {
+        padding-bottom: $space-50;
+    }
+}
+
+.profile-card {
+    padding: $space-400;
+
+    h3 {
+        margin-bottom: $space-200;
+    }
+}
+
+.profile-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: $space-300;
+    max-width: 69.625rem;
+
+    .daniel-card {
+        grid-column: span 2;
+    }
+
+    .jonathan-card {
+        background-color: $purple-500;
+    }
+
+    .kira-card {
+        grid-row: span 2;
+    }
+
+    .jeanette-card {
+        background-color: $grey-500;
+    }
+
+    .patrick-card {
+        grid-column: span 2;
+    }
+    
+}
